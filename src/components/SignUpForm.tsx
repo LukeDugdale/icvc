@@ -2,7 +2,7 @@ import { useId } from 'react'
 
 import { Button } from '@/components/Button'
 import Image from 'next/image'
-import plugLogo from '../images/PlugIcon.png'
+import plugLogo from '../images/Plug3.png'
 export function SignUpForm() {
   let id = useId()
 

@@ -57,17 +57,6 @@ export function Intro() {
       that uses DAO-governance to make community-driven investment decisions. 
       </p>
       <SignUpForm />
-      <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
-          Read the whitepaper
-        </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
-          GitHub
-        </IconLink>
-        <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
-          Testnet
-        </IconLink>
-      </div>
     </>
   )
 }
